@@ -6,7 +6,7 @@
 // Laisser vide pour rediriger vers le formulaire de contact WHMCS.
 const CONFIG = {
   whmcsUrl: 'https://www.ourbatigroup.com/members',
-  contactEmail: ''
+  contactEmail: 'sales@ourbatigroup.com'
 };
 
 (function () {

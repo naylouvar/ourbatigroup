@@ -12,7 +12,7 @@ WHMCS existant installé dans `/members/`.
 index.html            Page unique (accueil, services, hébergement, domaines, SSL, infogérance, contact…)
 assets/css/style.css  Styles (responsive, mode sombre automatique)
 assets/js/main.js     Menu mobile, animations, recherche de domaine, formulaire de contact
-assets/img/           Logo et favicon (SVG)
+assets/img/           Logo officiel (logo-ourbati.png), icône globe et favicon
 robots.txt, sitemap.xml
 ```
 
@@ -38,12 +38,12 @@ et `CONFIG.whmcsUrl` dans `assets/js/main.js`.
 
 ## À personnaliser
 
-- **Formulaire de contact** : renseigner `CONFIG.contactEmail` dans `assets/js/main.js` pour recevoir
-  les demandes par e-mail ; sinon le visiteur est redirigé vers `/members/contact.php`.
-- **Coordonnées** (téléphone, adresse, e-mail) dans la section Contact et le pied de page.
+- **Formulaire de contact** : ouvre un e-mail vers `sales@ourbatigroup.com` (`CONFIG.contactEmail`
+  dans `assets/js/main.js`). Laisser vide pour rediriger vers `/members/contact.php`.
+- **Prix des domaines** (accueil) : .com/.net/.org 20 $, .store 17,99 $ — repris de l'ancien site, à vérifier.
 - **Liens de commande précis** : remplacer `cart.php` par `cart.php?gid=X` (groupe de produits WHMCS)
-  sur chaque offre.
-- **Logo** : remplacer `assets/img/logo.svg` et `favicon.svg` par le logo officiel.
+  sur chaque pack (Smart, Advanced, Premium, VPS).
+- **Logo** : l'image fournie fait 200×85 px ; une version haute définition ou SVG donnera un rendu plus net.
 - **Indicateurs** (disponibilité, etc.) de la bande de chiffres selon vos engagements réels.
 
 Conseil : appliquer au thème WHMCS (Twenty-One) les mêmes couleurs (`#1f5eff` → `#22d3ee`, fond `#070f24`)
